@@ -21,8 +21,8 @@
             height: 100vh;
         }
         #sidebar ul {
-            list-style-type: none; /* Remove any default numbering or bullets */
-            padding-left: 0; /* Remove any padding that might add indentation */
+            list-style: none;
+            padding: 0;
         }
         #sidebar li {
             padding: 10px;
@@ -39,9 +39,7 @@
         }
         .level-detail {
             margin-top: 10px;
-        }
-        .level-detail h1 {
-            margin: 0;
+            display: none; /* Initially hidden */
         }
         .video-container {
             margin-top: 20px;
@@ -51,15 +49,26 @@
             height: 315px;
             border: none;
         }
+        #welcome-content {
+            display: block; /* Initially show the welcome page */
+        }
     </style>
 </head>
 <body>
     <div id="sidebar">
         <ul id="level-list">
-            <!-- Levels will be dynamically populated -->
+            <!-- Add the Welcome tab -->
+            <li id="welcome-tab">Welcome</li>
         </ul>
     </div>
     <div id="main-content">
+        <!-- Welcome Page -->
+        <div id="welcome-content">
+            <h1>Welcome to the Hardest Levels</h1>
+            <p>This is a collection of the hardest Geometry Dash levels. Select a level to learn more about it!</p>
+        </div>
+
+        <!-- Level Details (Initially hidden) -->
         <div class="level-detail">
             <h1 id="level-title">Select a Level</h1>
             <p><strong>Creator:</strong> <span id="level-creator"></span></p>
