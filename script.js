@@ -2,7 +2,7 @@
 const levels = [
     {
         id: 1,
-        name: "Tidal Wave",
+        name: "#1 - Tidal Wave",
         creator: "OniLinkGD",
         verifier: "Zoink",
         publisher: "OniLinkGD",
