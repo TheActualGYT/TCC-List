@@ -2,9 +2,9 @@
 const levels = [
     {
         id: 1,
-        name: "#1 - Tidal Wave",
+        name: "#1 - Sink",
         creator: "OniLinkGD",
-        verifier: "Zoink",
+        verifier: "Croma",
         publisher: "OniLinkGD",
         points: 500,
         levelId: 86407629,
