@@ -29,7 +29,7 @@ const levelList = document.getElementById("level-list");
 
 levels.forEach((level) => {
     const listItem = document.createElement("li");
-    listItem.textContent = `${level.id}. ${level.name}`;
+    listItem.textContent = level.name; // Just use the name without adding the number here
     listItem.onclick = () => displayLevelDetails(level);
     levelList.appendChild(listItem);
 });
