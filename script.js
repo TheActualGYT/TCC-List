@@ -1,7 +1,7 @@
 // Example levels data
 const levels = [
     {
-        name: "#1 - Sink",
+        name: "Sink",
         creator: "OniLinkGD",
         verifier: "Croma",
         publisher: "OniLinkGD",
