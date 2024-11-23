@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCC Hardest Levels</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        #sidebar {
+            width: 25%;
+            background-color: #292929;
+            padding: 10px;
+            overflow-y: auto;
+            height: 100vh;
+        }
+        #sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        #sidebar li {
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #444;
+        }
+        #sidebar li:hover {
+            background-color: #444;
+        }
+        #main-content {
+            width: 75%;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .level-detail {
+            margin-top: 10px;
+        }
+        .level-detail h1 {
+            margin: 0;
+        }
+        .video-container {
+            margin-top: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <ul id="level-list">
+            <!-- Levels will be dynamically populated -->
+        </ul>
+    </div>
+    <div id="main-content">
+        <div class="level-detail">
+            <h1 id="level-title">Select a Level</h1>
+            <p><strong>Creator:</strong> <span id="level-creator"></span></p>
+            <p><strong>Verifier:</strong> <span id="level-verifier"></span></p>
+            <p><strong>Publisher:</strong> <span id="level-publisher"></span></p>
+            <p><strong>List Points:</strong> <span id="level-points"></span></p>
+            <p><strong>Level ID:</strong> <span id="level-id"></span></p>
+            <p><strong>Password:</strong> <span id="level-password"></span></p>
+            <div class="video-container">
+                <iframe id="level-video" src="" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
