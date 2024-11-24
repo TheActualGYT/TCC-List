@@ -67,3 +67,17 @@ window.onload = () => {
     // Show the welcome content by default
     document.getElementById("welcome-content").style.display = 'block';
 };
+
+// Select all the tabs in the sidebar
+const tabs = document.querySelectorAll('#sidebar li'); // Adjusted to select li elements inside #sidebar
+
+// Loop through each tab and add an event listener for the click event
+tabs.forEach(tab => {
+    tab.addEventListener('click', function() {
+        // Remove the 'active-tab' class from all tabs
+        tabs.forEach(t => t.classList.remove('active-tab'));
+
+        // Add the 'active-tab' class to the clicked tab
+        tab.classList.add('active-tab');
+    });
+});
