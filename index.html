@@ -59,6 +59,26 @@
             background-color: #444;
         }
 
+        #sidebar li {
+              list-style-type: none;
+        }
+
+        #sidebar li a {
+              display: block;
+              padding: 10px;
+              text-decoration: none;
+              color: black;
+        }
+
+        #sidebar li.active {
+              background-color: #8a2be2; /* Purple background for the active tab */
+              color: white; /* Change the text color to white for visibility */
+        }
+
+        #sidebar li a:hover {
+              background-color: #6a0dad; /* Hover effect to change color on hover */
+        }
+
         #sidebar {
             width: 15%;
             background-color: rgba(41, 41, 41, 0.8); /* Semi-transparent for visibility */
@@ -214,6 +234,14 @@
             <li id="welcome-tab">MAIN LIST</li>
         </ul>
     </div>
+    
+    <ul id="sidebar">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
     <div id="main-content">
         <!-- Welcome Page -->
         <div id="welcome-content">
