@@ -199,6 +199,13 @@
         #right-side a:hover {
             text-decoration: underline; /* Optionally, underline on hover for better accessibility */
         }
+
+        /* Style for active tab (purple highlight) */
+        .active-tab {
+            background-color: purple;
+            color: white;
+        }
+
     </style>
 </head>
 <body>
@@ -213,6 +220,11 @@
             <!-- Change "WELCOME!" to "MAIN LIST" -->
             <li id="welcome-tab">MAIN LIST</li>
         </ul>
+    <ul id="level-list">
+        <li id="tab-1" class="tab">1. Sink</li>
+        <li id="tab-2" class="tab">2. Lucid Chaos</li>
+        <!-- Add more tabs as needed -->
+    </ul>
     </div>
     <div id="main-content">
         <!-- Welcome Page -->
@@ -280,3 +292,17 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+// Select all the tabs in the sidebar
+const tabs = document.querySelectorAll('.tab');
+
+// Loop through each tab and add an event listener for the click event
+tabs.forEach(tab => {
+    tab.addEventListener('click', function() {
+        // Remove the 'active-tab' class from all tabs
+        tabs.forEach(t => t.classList.remove('active-tab'));
+
+        // Add the 'active-tab' class to the clicked tab
+        tab.classList.add('active-tab');
+    });
+});
