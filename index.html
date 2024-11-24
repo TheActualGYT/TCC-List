@@ -88,16 +88,19 @@
             text-allign: left; /* Align all text to the left */
         }
 
-        #right-side h2, #right-side p, #right-side ul {
-            text-align: left; /* Ensure headings, paragraphs, and list items are also aligned to the left */
+            #right-side h2, #right-side p, #right-side ul, #right-side a {
+                margin: 0; /* Remove any default margin */
+                padding: 0; /* Remove any default padding */
+                text-align: left; /* Align text to the left */
+                line-height: 1.4; /* Control line spacing (adjust if necessary) */
         }
 
-        #right-side ul {
-            padding-left: 20px; /* Add left padding for lists */
+            #right-side ul {
+                padding-left: 20px; /* Ensure lists are indented properly */
         }
 
-        #right-side a {
-            text-align: left; /* Align links to the left */
+            #right-side li {
+                margin-bottom: 5px; /* Optional: space between list items */
         }
 
         #right-side {
