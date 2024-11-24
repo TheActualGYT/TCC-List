@@ -11,7 +11,7 @@ const levels = [
         video: "https://www.youtube.com/embed/xyz123"
     },
     {
-        name: "Acheron",
+        name: "Lucid Chaos",
         creator: "CreatorName",
         verifier: "VerifierName",
         publisher: "PublisherName",
