@@ -1,3 +1,16 @@
+.content-title {
+    margin-top: 0; /* Reset any extra margin on the title */
+    padding-top: 10px; /* Adjust as needed */
+    position: relative;
+    top: -10px; /* Move the title upward */
+}
+
+.sidebar-title {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Ensure alignment with sidebar title */
+}
+
 // Example levels data
 const levels = [
     {
