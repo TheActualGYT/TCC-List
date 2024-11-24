@@ -85,6 +85,15 @@
             display: flex;
             flex-direction: column;
             text-allign: left; /* Align all text to the left */
+            position: relative; /* This is necessary for the absolute positioning of the footer text */
+        }
+
+        #discord-footer {
+            position: absolute;
+            bottom: 10px; /* Distance from the bottom */
+            right: 10px; /* Distance from the right */
+            font-size: 12px; /* Smaller text size */
+            color: #ccc; /* Light gray color for the text */
         }
 
             #right-side h2, #right-side p, #right-side ul, #right-side a {
@@ -277,6 +286,9 @@
                 <p><a href="https://www.youtube.com/@noctaxi9385" target="_blank">- noctaxi</a></p>
                 <p><a href="https://www.youtube.com/@AndUhHalf" target="_blank">- half</a></p>
             </ul>
+        </div>
+        <div id="discord-footer">
+            You can ask me questions on Discord @theactualgyt
         </div>
     </div>
 
