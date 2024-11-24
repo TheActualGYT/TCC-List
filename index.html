@@ -15,12 +15,14 @@
 
         body {
             display: flex;
+            flex-direction: row; /* Arrange children in a row */
             margin: 0;
             font-family: 'Lexend', sans-serif;
             background-color: #1a1a1a;
             color: white;
             line-height: 1.6; /* General line-height for the body */
             height: 100vh;
+            width: 100%;
         }
 
         #sidebar {
@@ -50,15 +52,16 @@
             width: 60%;
             padding: 20px;
             overflow-y: auto;
+            height: 100%; /* Ensure content takes up the full height */
         }
 
         #right-side {
             width: 15%;
             padding: 20px;
             background-color: #292929;
-            height: 100%;
             color: white;
             overflow-y: auto;
+            height: 100%;
         }
 
         .level-detail {
@@ -103,10 +106,11 @@
             margin-top: 0; /* Remove any margin from the top */
         }
 
-        /* Ensure all sections take up the full height */
+        /* Ensure all sections take up the full height and prevent overflow */
         #sidebar, #main-content, #right-side {
             display: flex;
             flex-direction: column;
+            height: 100%; /* Ensure each section fills the full height */
         }
     </style>
 </head>
