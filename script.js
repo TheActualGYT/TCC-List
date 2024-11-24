@@ -162,17 +162,3 @@ tabs.forEach(tab => {
         tab.classList.add('active-tab');
     });
 });
-
- // JavaScript to dynamically raise the title "Sink" on its tab
-        const sinkTab = document.getElementById('sink-tab');
-
-        // Add a class for styling purposes
-        sinkTab.classList.add('sink-tab');
-
-        // Scroll into view (optional)
-        sinkTab.scrollIntoView({ behavior: 'smooth', block: 'center' });
-
-        // Optional: Add click functionality
-        sinkTab.addEventListener('click', () => {
-            alert("Welcome to the Sink tab!");
-        });
