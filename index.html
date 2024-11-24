@@ -59,6 +59,13 @@
             background-color: #444;
         }
 
+        /* Highlight active tab for "Sink" */
+        .sink-tab {
+            background-color: purple;
+            color: white;
+            font-weight: bold;
+        }
+        
         #sidebar {
             width: 15%;
             background-color: rgba(41, 41, 41, 0.8); /* Semi-transparent for visibility */
@@ -232,6 +239,13 @@
         <ul id="level-list">
             <!-- Change "WELCOME!" to "MAIN LIST" -->
             <li id="welcome-tab">MAIN LIST</li>
+        </ul>
+    </div>
+    <div id="sidebar">
+        <ul id="level-list">
+            <li id="welcome-tab">MAIN LIST</li>
+            <!-- Other tabs -->
+            <li id="sink-tab">Sink</li>
         </ul>
     </div>
     <div id="main-content">
