@@ -81,12 +81,3 @@ tabs.forEach(tab => {
         tab.classList.add('active-tab');
     });
 });
-
-// Select all list items in the sidebar
-        const listItems = document.querySelectorAll('.sidebar .tab');
-
-        // Loop through each list item and modify the text content
-        listItems.forEach((item, index) => {
-            // Update the text content to include # followed by the number and a dash
-            item.textContent = `#${index + 1} - ${item.textContent}`;
-        });
