@@ -19,7 +19,7 @@
             font-family: 'Lexend', sans-serif;
             background-color: #1a1a1a;
             color: white;
-            line-height: 1.6; /* General line-height for the body */
+            line-height: 1.6;
         }
 
         #sidebar {
@@ -46,14 +46,23 @@
         }
 
         #main-content {
-            width: 70%;
+            width: 60%;
             padding: 20px;
+            overflow-y: auto;
+        }
+
+        #right-side {
+            width: 15%;
+            padding: 20px;
+            background-color: #292929;
+            color: white;
+            height: 100vh;
             overflow-y: auto;
         }
 
         .level-detail {
             margin-top: 10px;
-            display: none; /* Initially hidden */
+            display: none;
         }
 
         .video-container {
@@ -67,45 +76,55 @@
         }
 
         #welcome-content {
-            display: block; /* Initially show the welcome page */
+            display: block;
         }
 
         #welcome-content h1 {
-            margin: 0; /* Remove any margin from the top of the title */
+            margin: 0;
         }
 
         #welcome-content p {
-            margin-top: 20px;  /* Add space above the paragraph */
-            margin-bottom: 40px; /* Add more space below the paragraph */
-            line-height: 1.6; /* Maintain line spacing for readability */
+            margin-top: 20px;
+            margin-bottom: 40px;
+            line-height: 1.6;
         }
 
-        /* Add a break in the paragraph for the gap */
         #welcome-content p span {
-            display: block; /* Make this span behave like a block element */
-            margin-top: 20px; /* Add a gap between the sentences */
+            display: block;
+            margin-top: 20px;
         }
 
-        /* Add custom style for the MAIN LIST tab */
         #welcome-tab {
-            font-size: 30px; /* Increase font size */
-            font-weight: bold; /* Make text bold */
-            margin-top: 0; /* Remove any margin from the top */
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 0;
         }
+
+        /* Styles for the new right-side section */
+        #right-side h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        #right-side p {
+            font-size: 16px;
+            line-height: 1.4;
+        }
+
     </style>
 </head>
 <body>
     <div id="sidebar">
         <ul id="level-list">
-            <!-- Change "WELCOME!" to "MAIN LIST" -->
             <li id="welcome-tab">MAIN LIST</li>
         </ul>
     </div>
+
     <div id="main-content">
         <!-- Welcome Page -->
         <div id="welcome-content">
             <h1>Welcome to the official TCC List!</h1>
-            <p>This is a collection of the hardest Geometry Dash levels beaten by the TCC, a community formed about 1.5 years ago by a group of 10 friends. The TCC started as a small group of players who shared a love for Geometry Dash and a passion to achieve any goals that came to their mind. Over time, the community has grown and continues to challenge each other to push their skills to the limit today. 
+            <p>This is a collection of the hardest Geometry Dash levels beaten by the TCC, a community formed about 1.5 years ago by a group of 10 friends. The TCC started as a small group of players who shared a love for Geometry Dash and a passion to achieve any goals that came to their mind. Over time, the community has grown and continues to challenge each other to push their skills to the limit today.
             <span>These levels represent the hard work, dedication, and resilience of the TCC members as they overcome some of the most difficult challenges they've ever experienced. This collection shows the achievements of the group and highlights their progress as players in the Geometry Dash community. Thanks for reading, enjoy the website! :D.</span>
             </p>
         </div>
@@ -124,6 +143,15 @@
             </div>
         </div>
     </div>
+
+    <!-- Right-side section for details about the creator and members -->
+    <div id="right-side">
+        <h2>About the TCC List</h2>
+        <p>The TCC List was created by a passionate group of 10 friends who love Geometry Dash. The community has grown over the years and continues to push the limits of what is possible in the game.</p>
+        <h2>List Members</h2>
+        <p>The following members contributed to this list: [Add member names here].</p>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
