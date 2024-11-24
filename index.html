@@ -25,6 +25,17 @@
             width: 100%;
         }
 
+        /* Video Background */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the video covers the entire background */
+            z-index: -1; /* Push the video behind other elements */
+        }
+
         #sidebar {
             width: 15%;
             background-color: #292929;
@@ -149,6 +160,12 @@
     </style>
 </head>
 <body>
+    <!-- Video Background -->
+    <video class="video-background" autoplay muted loop>
+        <source src="Video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
     <div id="sidebar">
         <ul id="level-list">
             <!-- Change "WELCOME!" to "MAIN LIST" -->
