@@ -85,30 +85,30 @@
             display: flex;
             flex-direction: column;
             text-allign: left; /* Align all text to the left */
-            position: relative; /* This is necessary for the absolute positioning of the footer text */
         }
 
-        #discord-footer {
-            position: absolute;
-            bottom: 10px; /* Distance from the bottom */
-            right: 10px; /* Distance from the right */
-            font-size: 12px; /* Smaller text size */
-            color: #ccc; /* Light gray color for the text */
+        #right-side .discordtext {
+            position: absolute; /* Position relative to the parent container */
+            bottom: 10px; /* Distance from the bottom of the parent */
+            right: 10px; /* Distance from the right of the parent */
+            font-size: 12px; /* Adjust the font size to be smaller */
+            text-align: right; /* Right-align the text */
+            color: white; /* Make the text white */
         }
 
-            #right-side h2, #right-side p, #right-side ul, #right-side a {
-                margin: 0; /* Remove any default margin */
-                padding: 0; /* Remove any default padding */
-                text-align: left; /* Align text to the left */
-                line-height: 1.4; /* Control line spacing (adjust if necessary) */
+        #right-side h2, #right-side p, #right-side ul, #right-side a {
+            margin: 0; /* Remove any default margin */
+            padding: 0; /* Remove any default padding */
+            text-align: left; /* Align text to the left */
+            line-height: 1.4; /* Control line spacing (adjust if necessary) */
         }
 
-            #right-side ul {
-                padding-left: 20px; /* Ensure lists are indented properly */
+        #right-side ul {
+            padding-left: 20px; /* Ensure lists are indented properly */
         }
 
-            #right-side li {
-                margin-bottom: 5px; /* Optional: space between list items */
+        #right-side li {
+            margin-bottom: 5px; /* Optional: space between list items */
         }
 
         #right-side {
@@ -287,8 +287,8 @@
                 <p><a href="https://www.youtube.com/@AndUhHalf" target="_blank">- half</a></p>
             </ul>
         </div>
-        <div id="discord-footer">
-            You can ask me questions on Discord @theactualgyt
+        <div class="discord-text">
+            You can ask me questions on Discord @theactualgyt.
         </div>
     </div>
 
