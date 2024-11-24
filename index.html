@@ -64,21 +64,22 @@
             height: 100%;
         }
 
-        /* Remove extra space and make it look aligned */
+        /* Header styling for proper spacing */
         #right-side h2 {
-            margin-bottom: 10px;
+            margin-bottom: 10px; /* Fix the bottom space after headers */
         }
 
-        /* Add spacing between list items */
+        /* Add consistent space between sections */
         #right-side ul {
             padding-left: 20px;
-            margin-bottom: 20px;
+            margin-top: 20px; /* Add space between the list and previous content */
         }
 
         #right-side ul li {
-            margin-bottom: 10px;
+            margin-bottom: 10px; /* Space between each item */
         }
 
+        /* Level Detail section */
         .level-detail {
             margin-top: 10px;
             display: none; /* Initially hidden */
@@ -108,12 +109,6 @@
             line-height: 1.6; /* Maintain line spacing for readability */
         }
 
-        /* Add a break in the paragraph for the gap */
-        #welcome-content p span {
-            display: block; /* Make this span behave like a block element */
-            margin-top: 20px; /* Add a gap between the sentences */
-        }
-
         /* Ensure all sections take up the full height and prevent overflow */
         #sidebar, #main-content, #right-side {
             display: flex;
@@ -131,7 +126,6 @@
 <body>
     <div id="sidebar">
         <ul id="level-list">
-            <!-- Change "WELCOME!" to "MAIN LIST" -->
             <li id="welcome-tab">MAIN LIST</li>
         </ul>
     </div>
