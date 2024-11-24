@@ -1,14 +1,14 @@
 // Example levels data
 const levels = [
     {
-        name - "Sink",
-        creator - "Awedsy",
-        verifier - "Croma",
-        skillset - "Timings, wave",
-        points - "N/A",
-        levelId - 77255632,
-        showcase - "https://www.youtube.com/watch?v=_L7T7ReVDzU",
-        verification - "https://www.youtube.com/watch?v=BoNcuqEbypU"
+        name: "Sink",
+        creator: "Awedsy",
+        verifier: "Croma",
+        skillset: "Timings, wave",
+        points: "N/A",
+        levelId: 77255632,
+        showcase: "https://www.youtube.com/watch?v=_L7T7ReVDzU",
+        verification: "https://www.youtube.com/watch?v=BoNcuqEbypU"
     },
     {
         name: "Lucid Chaos",
