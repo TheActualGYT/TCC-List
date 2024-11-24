@@ -23,11 +23,23 @@
             line-height: 1.6; /* General line-height for the body */
             height: 100vh;
             width: 100%;
+            overflow: hidden; /* Prevent scrolling outside */
+        }
+
+        /* Video background styling */
+        .video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Send video to the background */
+            object-fit: cover; /* Ensure video covers the entire screen */
         }
 
         #sidebar {
             width: 15%;
-            background-color: #292929;
+            background-color: rgba(41, 41, 41, 0.9); /* Add opacity for visibility */
             padding: 10px;
             overflow-y: auto;
             height: 100%;
@@ -53,12 +65,13 @@
             padding: 20px;
             overflow-y: auto;
             height: 100%; /* Ensure content takes up the full height */
+            background-color: rgba(26, 26, 26, 0.8); /* Add opacity for visibility */
         }
 
         #right-side {
             width: 15%;
             padding: 20px;
-            background-color: #292929;
+            background-color: rgba(41, 41, 41, 0.9); /* Add opacity for visibility */
             color: white;
             overflow-y: auto;
             height: 100%;
@@ -151,9 +164,10 @@
 <body>
     <!-- Background video -->
     <video class="video-bg" autoplay loop muted>
-        <source src="Video.mp4" type="video/mp4">
+        <source src="background.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+
     <div id="sidebar">
         <ul id="level-list">
             <!-- Change "WELCOME!" to "MAIN LIST" -->
@@ -195,7 +209,7 @@
         <div class="section">
             <h2>HOW IT'S MADE</h2>
             <ul>
-            <p>This website was created by <a href="https://www.youtube.com/@TheActualGYT" target="_blank"><strong>GYT</strong></a>, and may not be used or distributed in any form without permission. If you want a templete, please ask.</p>
+            <p>This website was created by <a href="https://www.youtube.com/@TheActualGYT" target="_blank"><strong>GYT</strong></a>, and may not be used or distributed in any form without permission. If you want a template, please ask.</p>
             </ul>
         </div>
         <div class="section">
@@ -207,23 +221,10 @@
                 <li><a href="https://www.youtube.com/@CromaGD" target="_blank">- Croma</a></li>
                 <li><a href="https://www.youtube.com/@LandetGD" target="_blank">- Landet</a></li>
                 <li><a href="https://www.youtube.com/@xgoldgd" target="_blank">- xgoldGD</a></li>
-                <li><a href="https://www.youtube.com/channel/UCbeT68id-YogUuLvk0i6JeQ" target="_blank">- Spencer</a></li>
-                <li><a href="https://www.youtube.com/@Hynamite42" target="_blank">- Hynamite</a></li>
-                <li><a href="https://www.youtube.com/channel/UCmUZTdjeJDokTKcfApSFcxw" target="_blank">- Ykiller</a></li>
-                <li><a href="https://www.youtube.com/channel/UCo58tWOSKwPJ839J27zi50A" target="_blank">- FastFire</a></li>
-            </ul>
-        </div>
-        <div class="section">
-            <h2>TCC ADMINS</h2>
-            <ul>
-                <li><a href="https://www.youtube.com/@gdrg18" target="_blank">- RG18</a></li>
-                <li><a href="https://www.youtube.com/@skyvv" target="_blank">- skyvv</a></li>
-                <li><a href="https://www.youtube.com/@noctaxi9385" target="_blank">- noctaxi</a></li>
-                <li><a href="https://www.youtube.com/@AndUhHalf" target="_blank">- half</a></li>
+                <li><a href="https://www.youtube.com/channel/UC5GEPJOM8Qqu6m-FhxciCNw" target="_blank">- Electro</a></li>
+                <li><a href="https://www.youtube.com/@Namify" target="_blank">- Namify</a></li>
             </ul>
         </div>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
