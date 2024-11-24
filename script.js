@@ -11,6 +11,16 @@ const levels = [
         verification: "https://www.youtube.com/watch?v=BoNcuqEbypU"
     },
     {
+        name: "Nightshade",
+        creator: "YakobNugget & more",
+        verifier: "Enfur",
+        skillset: "Memory, nerve control",
+        points: "N/A",
+        levelId: 83107375,
+        showcase: "https://www.youtube.com/watch?v=5q3xZ_U2q6I",
+        verification: "https://www.youtube.com/watch?v=oXXsNtLwF8M&t=228s&pp=ygUTbmlnaHRzaGFkZSBnZCBlbmZ1cg%3D%3D"
+    },
+    {
         name: "Lucid Chaos",
         creator: "CairoX & more",
         verifier: "Croma",
