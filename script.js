@@ -31,16 +31,6 @@ const levels = [
         verification: "N/A"
     },
     {
-        name: "Lucid Chaos",
-        creator: "CairoX & more",
-        verifier: "Croma",
-        skillset: "All-around",
-        points: "N/A",
-        levelId: 62817170,
-        showcase: "https://www.youtube.com/watch?v=CSQwka10qPE&t=58s&pp=ygUZbHVjaWQgY2hhb3MgZ2VvbWV0cnkgZGFzaA%3D%3D",
-        verification: "https://www.youtube.com/watch?v=jtGPB6a-6Eg"
-    },
-    {
         name: "The Moon Below",
         creator: "Onvil",
         verifier: "Croma",
@@ -49,6 +39,16 @@ const levels = [
         levelId: 79484035,
         showcase: "https://www.youtube.com/watch?v=REzdF2IxCXc&t=19s&pp=ygURdGhlIG1vb24gYmVsb3cgZ2Q%3D",
         verification: "https://www.youtube.com/watch?v=uIAuTXw9d6g&t=8s&pp=ygUUdGhlIG1vb24gYmVsb3cgY3JvbWE%3D"
+    },
+    {
+        name: "Lucid Chaos",
+        creator: "CairoX & more",
+        verifier: "Croma",
+        skillset: "All-around",
+        points: "N/A",
+        levelId: 62817170,
+        showcase: "https://www.youtube.com/watch?v=CSQwka10qPE&t=58s&pp=ygUZbHVjaWQgY2hhb3MgZ2VvbWV0cnkgZGFzaA%3D%3D",
+        verification: "https://www.youtube.com/watch?v=jtGPB6a-6Eg"
     }
 ];
 
