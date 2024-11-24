@@ -168,6 +168,20 @@
         }
     </style>
 </head>
+    <style>
+        body::-webkit-scrollbar {
+            display: none;
+        }
+        body {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100vh;
+            object-fit: contain;
+        }
+    </style>
 <body>
     <!-- Video Background -->
     <video class="video-background" autoplay muted loop>
