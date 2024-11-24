@@ -49,6 +49,56 @@ const levels = [
         levelId: 62817170,
         showcase: "https://www.youtube.com/watch?v=CSQwka10qPE&t=58s&pp=ygUZbHVjaWQgY2hhb3MgZ2VvbWV0cnkgZGFzaA%3D%3D",
         verification: "https://www.youtube.com/watch?v=jtGPB6a-6Eg"
+    },
+    {
+        name: "BuTiTi III",
+        creator: "",
+        verifier: "Enfur",
+        skillset: "",
+        points: "N/A",
+        levelId: "",
+        showcase: "",
+        verification: ""
+    },
+    {
+        name: "ConFusion",
+        creator: "",
+        verifier: "Enfur",
+        skillset: "",
+        points: "N/A",
+        levelId: "",
+        showcase: "",
+        verification: ""
+    },
+    {
+        name: "Stalemate Redux",
+        creator: "",
+        verifier: "Croma",
+        skillset: "",
+        points: "N/A",
+        levelId: "",
+        showcase: "",
+        verification: ""
+    },
+    {
+        name: "Killbot",
+        creator: "",
+        verifier: "Croma",
+        skillset: "",
+        points: "N/A",
+        levelId: "",
+        showcase: "",
+        verification: ""
+    },
+    {
+        name: "Omicron",
+        creator: "",
+        verifier: "Enfur",
+        skillset: "",
+        points: "N/A",
+        levelId: "",
+        showcase: "",
+        verification: ""
     }
 ];
 
