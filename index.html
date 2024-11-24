@@ -284,37 +284,6 @@
         </div>
     </div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Sidebar</title>
-</head>
-<body>
-    <div class="sidebar">
-        <ul>
-            <li class="tab">Sink</li>
-            <li class="tab">Lucid Chaos</li>
-            <li class="tab">Another Tab</li>
-            <!-- Add more tabs as needed -->
-        </ul>
-    </div>
-
-    <!-- Your script should be placed just before closing the body tag -->
-    <script>
-        // Select all list items in the sidebar
-        const listItems = document.querySelectorAll('.sidebar .tab');
-
-        // Loop through each list item and modify the text content
-        listItems.forEach((item, index) => {
-            // Update the text content to include # followed by the number and a dash
-            item.textContent = `#${index + 1} - ${item.textContent}`;
-        });
-    </script>
-</body>
-</html>
-
     <script src="script.js"></script>
 </body>
 </html>
