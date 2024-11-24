@@ -2,23 +2,23 @@
 const levels = [
     {
         name: "Sink",
-        creator: "OniLinkGD",
+        creator: "Awedsy",
         verifier: "Croma",
-        publisher: "OniLinkGD",
-        points: 500,
-        levelId: 86407629,
-        password: "Free to Copy",
-        video: "https://www.youtube.com/embed/xyz123"
+        skillset: "Timings, wave",
+        points: "N/A",
+        levelId: 77255632,
+        showcase: "https://www.youtube.com/watch?v=_L7T7ReVDzU",
+        verification: "https://www.youtube.com/watch?v=BoNcuqEbypU"
     },
     {
         name: "Lucid Chaos",
-        creator: "CreatorName",
-        verifier: "VerifierName",
-        publisher: "PublisherName",
-        points: 450,
-        levelId: 12345678,
-        password: "Verified",
-        video: "https://www.youtube.com/embed/abc456"
+        creator: "CairoX & more",
+        verifier: "Croma",
+        skillset: "All-around",
+        points: "N/A",
+        levelId: 62817170,
+        showcase: "https://www.youtube.com/watch?v=CSQwka10qPE&t=58s&pp=ygUZbHVjaWQgY2hhb3MgZ2VvbWV0cnkgZGFzaA%3D%3D",
+        verification: "https://www.youtube.com/watch?v=jtGPB6a-6Eg"
     }
 ];
 
