@@ -64,6 +64,21 @@
             height: 100%;
         }
 
+        /* Remove extra space and make it look aligned */
+        #right-side h2 {
+            margin-bottom: 10px;
+        }
+
+        /* Add spacing between list items */
+        #right-side ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        #right-side ul li {
+            margin-bottom: 10px;
+        }
+
         .level-detail {
             margin-top: 10px;
             display: none; /* Initially hidden */
@@ -99,13 +114,6 @@
             margin-top: 20px; /* Add a gap between the sentences */
         }
 
-        /* Add custom style for the MAIN LIST tab */
-        #welcome-tab {
-            font-size: 30px; /* Increase font size */
-            font-weight: bold; /* Make text bold */
-            margin-top: 0; /* Remove any margin from the top */
-        }
-
         /* Ensure all sections take up the full height and prevent overflow */
         #sidebar, #main-content, #right-side {
             display: flex;
@@ -117,20 +125,6 @@
         #right-side ul {
             list-style-type: none;  /* Removes bullet points */
             padding: 0;  /* Remove any padding */
-        }
-
-        /* Aligning everything in the right-side section properly */
-        #right-side .section ul {
-            padding-left: 10px; /* Align the list with the rest of the content */
-        }
-
-        #right-side .section {
-            margin-left: 5px; /* Slightly adjust to line up with the rest of the text */
-        }
-
-        /* Style for the sections to add proper spacing */
-        .section {
-            margin-bottom: 20px; /* Adds a gap between sections */
         }
     </style>
 </head>
@@ -144,7 +138,7 @@
     <div id="main-content">
         <!-- Welcome Page -->
         <div id="welcome-content">
-            <h1>WELCOME TO THE OFFICIAL TCC LIST!</h1>
+            <h1>Welcome to the Official TCC List!</h1>
             <p>This is a collection of the hardest Geometry Dash levels beaten by the TCC, a community formed about 1.5 years ago by a group of 10 friends. The TCC started as a small group of players who shared a love for Geometry Dash and a passion to achieve any goals that came to their mind. Over time, the community has grown and continues to challenge each other to push their skills to the limit today. 
             <span>These levels represent the hard work, dedication, and resilience of the TCC members as they overcome some of the most difficult challenges they've ever experienced. This collection shows the achievements of the group and highlights their progress as players in the Geometry Dash community. Thanks for reading, enjoy the website! :D</span>
             </p>
@@ -167,36 +161,30 @@
 
     <!-- Right-side section for list info and members -->
     <div id="right-side">
-        <div class="section">
-            <h2>ABOUT THE LIST</h2>
-            <p>This list was created by the TCC community, a group of passionate Geometry Dash players. It represents the top levels beaten by our members.</p>
-        </div>
+        <h2>About the List</h2>
+        <p>This list was created by the TCC community, a group of passionate Geometry Dash players. It represents the top levels beaten by our members.</p>
         
-        <div class="section">
-            <h2>TCC FOUNDERS</h2>
-            <ul>
-                <li>- GYT</li>
-                <li>- Jedwint</li>
-                <li>- Croma</li>
-                <li>- Landet</li>
-                <li>- xgoldGD</li>
-                <li>- Spencer</li>
-                <li>- Hynamite</li>
-                <li>- Ykiller</li>
-                <li>- FastFire</li>
-            </ul>
-        </div>
+        <h2>TCC Founders</h2>
+        <ul>
+            <li>- GYT</li>
+            <li>- Jedwint</li>
+            <li>- Croma</li>
+            <li>- Landet</li>
+            <li>- xgoldGD</li>
+            <li>- Spencer</li>
+            <li>- Hynamite</li>
+            <li>- Ykiller</li>
+            <li>- FastFire</li>
+        </ul>
 
-        <div class="section">
-            <h2>TCC ADMINS</h2>
-            <ul>
-                <li>- Enfur</li>
-                <li>- RG18</li>
-                <li>- skyvv</li>
-                <li>- noctaxi</li>
-                <li>- half</li>
-            </ul>
-        </div>
+        <h2>TCC Admins</h2>
+        <ul>
+            <li>- Enfur</li>
+            <li>- RG18</li>
+            <li>- skyvv</li>
+            <li>- noctaxi</li>
+            <li>- half</li>
+        </ul>
     </div>
 
     <script src="script.js"></script>
