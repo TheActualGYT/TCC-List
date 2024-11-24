@@ -56,6 +56,7 @@ function displayLevelDetails(level) {
     document.getElementById("level-skillset").textContent = level.skillset;
     document.getElementById("level-points").textContent = level.points;
     document.getElementById("level-id").textContent = level.levelId;
+    document.getElementById("level-showcase").textContent = level.showcase;
     document.getElementById("level-verification").textContent = level.verification;
     document.getElementById("level-video").src = level.video;
 }
