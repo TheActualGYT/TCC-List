@@ -81,24 +81,3 @@ tabs.forEach(tab => {
         tab.classList.add('active-tab');
     });
 });
-
-document.addEventListener("DOMContentLoaded", function() {
-    const tabData = [
-        { name: "Sink", id: 1 },
-        { name: "Lucid Chaos", id: 2 },
-        { name: "Another Tab", id: 3 },
-        // Add more tabs as needed
-    ];
-
-    const levelList = document.getElementById("level-list");
-
-    tabData.forEach(tab => {
-        const listItem = document.createElement("li");
-        listItem.classList.add("tab");
-
-        // Set the text content to match "#<id> - <name>"
-        listItem.textContent = `#${tab.id} - ${tab.name}`;
-        levelList.appendChild(listItem);
-    });
-});
-
